@@ -2,7 +2,7 @@
 /*my background images works here, but not on github*/
 
 body {
-    background: url(../background/wood-background.png);
+    background-image: url(../background/wood-background.png);
 }
 
 .title_box {
