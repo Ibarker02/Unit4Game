@@ -1,0 +1,46 @@
+body {
+    background: url(../background/wood-background.png);
+}
+
+.title_box {
+    background: lightseagreen;
+    height: 100px;
+    border: solid 3px black;
+}
+
+.title_box > h1 {
+    color: rgb(0, 0, 0);
+}
+
+.img_container {
+    padding: 0px 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid 2px rgb(163, 154, 135);
+}
+
+#img-anchor {
+    width:150px;
+    height:150px;
+}
+
+.random_number_block {
+    background:  lightseagreen;
+    border: solid 3px black;
+}
+
+.wins_block {
+    background:  lightseagreen;
+    border: solid 2px black;
+}
+
+.losses_block {
+    background: lightseagreen;
+    border: solid 2px black;
+}
+
+.total_score_container {
+    background:  lightseagreen;
+    padding: 0px 15px;
+    border: solid 3px black;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html en="lang">
+<head>
+    <meta charset="UTF-8">
+    <title>Marble Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/paper-bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- jquery -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Importing Javascript -->
+
+    <script src="assets/javascript/game.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div class="container page-header text-center title_box">
+            <h1>Marble Collector</h1>
+        </div>
+        <div class="container status-container">
+            <div class="row">
+                <div class="col-md-8 random_number_block">
+                    <div class="col-md-12">
+                        <h2>Number: <span id="randomNumber">0</span> </h2>
+                    </div>
+                    <div class="col-md-12">
+                        <h2 id="resultMsg"></h2>
+                    </div>
+                </div>
+                <div class="col-md-4 wins-loss">
+                    <div class="col-md-12 wins_block">
+                        <h2>Wins: <span id="wins">0</span></h2>
+                    </div>
+                    <div class="col-md-12 losses_block">
+                        <h2>Losses: <span id="losses">0</span></h2>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+
+            <div class="row">
+                <div class="col-xs-6 col-md-3 img_container">
+                    <a href="#" class="img-Anchor" id="marble1" value="0">
+                        <img class="img-responsive img-thumbnail rounded" src="assets/images/Marble1.jpg" id="crystal1" >
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-3 img_container">
+                    <a href="#" class="img-Anchor" id="marble2" value="0">
+                        <img class="img-responsive img-thumbnail rounded" src="assets/images/marble2.png" id="crystal2" >
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-3 img_container">
+                    <a href="#" class="img-Anchor" id="marble3" value="0">
+                        <img class="img-responsive img-thumbnail rounded" src="assets/images/marble3.png" id="crystal3" >
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-3 img_container">
+                    <a href="#" class="img-Anchor" id="marble4" value="0">
+                        <img class="img-responsive img-thumbnail rounded" src="assets/images/marble4.png" >
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div class="row total_score_container">
+                <h2>Total number of marbles: <h1><span id="totalScore">0</span></h1></h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
